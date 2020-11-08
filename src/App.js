@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import Interface from './Components/Interface';
 import './App.css';
+import data from './data.json';
+import react, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+console.log(data);
+
+class App extends Component {
+
+  state = {
+    infos : data
+  }
+  
+  render() {
+
+    return (
+      <div className="App">
+        <Interface infos={this.state.infos}/>
+      </div>
+    );
+
+  }
 }
 
 export default App;

@@ -1,0 +1,75 @@
+.Interface-main {
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+}
+
+h3,h4 {
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+.Interface-sub {
+    padding-left: .4em;
+    padding-top: .7em;
+    padding-bottom: .7em;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    height: fit-content;
+    width: 100%;
+    background-color: #ddbea9;
+    display: block;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    justify-content: center;
+
+    box-shadow: -2px -2px 2px rgba(191, 189, 200, 0.08), 2px 2px 3px rgba(0, 0, 0, 0.4), -10px -10px 15px rgba(208, 197, 249, 0.005), 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Interface-individual {
+    text-align: center;
+    margin-left: .5%;
+    margin-right: .5%;
+    padding: 5px;
+    width: 97%;
+    height: fit-content;
+    background-color: #f5f3f4;
+
+    font-size: 110%;
+
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    justify-content: center;
+
+    box-shadow: -2px -2px 2px rgba(191, 189, 200, 0.08), 2px 2px 3px rgba(0, 0, 0, 0.4), -10px -10px 15px rgba(208, 197, 249, 0.005), 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .Interface-sub {
+        margin: none;
+        height: 55px;
+    }
+
+    .Interface-individual {
+        font-size: 110%;
+        width: 23%;
+        height: 35px;
+    
+        display: inline-block;
+        float: left;
+
+        margin: none;
+    }
+}
