@@ -4,8 +4,8 @@
         "date" : "6-11-2020",
         "time" : "00:23",
         "temperature" : 48,
-        "moisture" : 50,
-        "ph" : 6.8
+        "moisture" : 43,
+        "ph" : 5.8
     },
 
     {
@@ -13,7 +13,7 @@
         "date" : "7-11-2020",
         "time" : "00:23",
         "temperature" : 58,
-        "moisture" :60.4,
+        "moisture" :70.4,
         "ph" : 6.5
     },
     
@@ -23,6 +23,6 @@
         "time" : "00:23",
         "temperature" : 78,
         "moisture" : 50.2,
-        "ph" : 7
+        "ph" : 9
     }
 ]
