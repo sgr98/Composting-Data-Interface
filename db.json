@@ -1,0 +1,30 @@
+{
+    "posts":[
+            {
+                "id" : 1,
+                "date" : "6-11-2020",
+                "time" : "00:23",
+                "temperature" : 48,
+                "moisture" : 43,
+                "ph" : 5.8
+            },
+        
+            {
+                "id" : 2,
+                "date" : "7-11-2020",
+                "time" : "00:23",
+                "temperature" : 58,
+                "moisture" :70.4,
+                "ph" : 6.5
+            },
+            
+            {
+                "id" : 3,
+                "date" : "8-11-2020",
+                "time" : "00:23",
+                "temperature" : 78,
+                "moisture" : 50.2,
+                "ph" : 9
+            }
+            ]
+}

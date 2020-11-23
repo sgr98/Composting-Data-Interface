@@ -40,8 +40,10 @@ class Interface extends Component {
     }
 
     render() {
-        const infos = this.props.infos;
-        const infolist = infos.map(info => {
+        const infoarr = this.props.infos;
+        console.log("Interface.js");
+        console.log(infoarr);
+        const infolist = infoarr.map(info => {
             return (
                 <div className="Interface-sub">
                     <div className="Interface-individual" id="time">
